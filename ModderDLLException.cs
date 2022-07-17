@@ -47,7 +47,7 @@ namespace ModderDLL
         }
     }
     /// <summary>
-    /// 
+    /// 访问许可不足异常
     /// </summary>
     public class UnauthorizedException:ModderDLLException
     {
