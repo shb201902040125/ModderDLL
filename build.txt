@@ -1,0 +1,6 @@
+displayName = A Modder DLL
+author = slivermoon
+version = 0.1
+hideCode = true
+hideResources = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.zip, *.7z, *.rar
