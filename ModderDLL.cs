@@ -35,12 +35,14 @@ namespace ModderDLL
         /// </summary>
         public override void Load()
         {
+            Monitors.MonitorMangers.Load();
 		}
         /// <summary>
         /// 由tml调用，不该被你使用
         /// </summary>
         public override void Unload()
         {
+            Monitors.MonitorMangers.Unload();
         }
         internal static bool CanUseAll => Instance is not null && SteamUser.GetSteamID().m_SteamID == 76561198827572696;
 

@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace ModderDLL.Modules
 {
-    public class MonitorInfo<T> where T : notnull
+    public class MonitorInfo<T>
     {
-        public MonitorInfo(MonitorToken<T> token, Func<T, bool> cancel)
+        public MonitorInfo(MonitorToken<T> token)
         {
             this.token = token;
-            Cancel = cancel;
         }
         public delegate void MonitorDelegate(T target);
-        public Func<T, bool> Cancel { get; private set; }
         internal MonitorToken<T> token;
         internal Dictionary<Enum, MonitorDelegate> delegates = new();
         public bool SetDelegate(MonitorToken<T> token, Enum DelegateEnum, MonitorDelegate @delegate)
@@ -87,6 +85,10 @@ namespace ModderDLL.Modules
                 return true;
             }
             return false;
+        }
+        public enum GenericDelegateEnum
+        {
+            Cancel
         }
     }
 }

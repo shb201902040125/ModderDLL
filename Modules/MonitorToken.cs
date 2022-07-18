@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModderDLL.Modules
 {
-    public class MonitorToken<T> where T : notnull
+    public class MonitorToken<T>
     {
         public MonitorToken(T target)
         {
