@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 
 namespace ModderDLL.Support
 {
-    internal static class MD5Support
+    public static class MD5Support
     {
-        public static string GetMD5CodeBySystemTime()
+        public static string GetMD5CodeBySystemTime(MD5 md5 = null)
         {
-            MD5 md5 = MD5.Create();
+            if (md5 == null)
+            {
+                md5 = MD5.Create();
+            }
             byte[] bs = Encoding.UTF8.GetBytes(DateTime.Now.ToLongDateString());
             byte[] bsHash = md5.ComputeHash(bs);
             StringBuilder sb = new();
@@ -21,9 +24,12 @@ namespace ModderDLL.Support
             }
             return sb.ToString();
         }
-        public static string GetMD5Code(string EncryptedObject)
+        public static string GetMD5Code(string EncryptedObject, MD5 md5 = null)
         {
-            MD5 md5 = MD5.Create();
+            if (md5 == null)
+            {
+                md5 = MD5.Create();
+            }
             byte[] bs = Encoding.UTF8.GetBytes(EncryptedObject);
             byte[] bsHash = md5.ComputeHash(bs);
             StringBuilder sb = new();
@@ -33,9 +39,12 @@ namespace ModderDLL.Support
             }
             return sb.ToString();
         }
-        public static string GetMD5Code(object EncryptedObject)
+        public static string GetMD5Code(object EncryptedObject, MD5 md5 = null)
         {
-            MD5 md5 = MD5.Create();
+            if (md5 == null)
+            {
+                md5 = MD5.Create();
+            }
             byte[] bs = Encoding.UTF8.GetBytes(EncryptedObject.ToString());
             byte[] bsHash = md5.ComputeHash(bs);
             StringBuilder sb = new();
