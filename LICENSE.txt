@@ -1,21 +1,25 @@
-MIT License
+ModderDLL Standalone License
 
-Copyright (c) [year] [fullname]
+Copyright is shared by all contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+License is hereby granted free of charge to anyone who obtains a copy
+This software and related documentation files ("Software") are used to process
+No restrictions in the software, including but not limited to rights
+use, copy, modify, merge, publish, distribute, sublicense and/or sell
+a copy of the software, and the person who is permitted to receive the software
+offered to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+copies or most of the software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+No matter how you obtain a copy from any channel, once you use it, you are deemed to have known and agreed to all the terms of this license.
+
+This software is provided "as is" without warranty of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the author or copyright holder be liable for any claim, damage or other
+Liability, whether in contract action, tort or otherwise, for any reason whatsoever
+
+However, it reserves the limited right to pursue legal liability against the person or organization that obtains the copy under certain circumstances, including but not limited to the following:
+Contributors or others report the use of the content contained in the software, but the license does not contain the entire content of this license or this licensed content contain any changes to this licensed content make it contain any unfavorable to the contributors of the software (requires the inclusion of the original content of this license, or undo changes that are detrimental to the contributors of this software)
+Contributors or others report the use of the software for illicit gains (requiring the return or disposal of illicit gains in accordance with the law)
+Contributors or others report that the use of this software is contrary to basic ethics (compensate for the loss caused by behavior that violates basic ethics, and publicly apologize)
+Reported by the contributor or others to find that the software or the contributor is defamatory when using the software (revocation of defamation and compensation for the loss caused by the defamation, and public apology)
+Contributors or others report and find that the use of this software has caused or intends to infringe upon the national interests or sovereignty of any contributor’s country (unlimited liability under the law)
